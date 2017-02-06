@@ -1,3 +1,3 @@
-# bootstrap4Template
-Admin Template bootstrap v4
-<img src="http://image.prntscr.com/image/6599d3897ad74df39fa139b0bf076ac0.png" alt="Admin Template bootstrap v4">
+# bootstrap4Timeline
+Timeline Template bootstrap v4 + AngularJS
+<img src="http://image.prntscr.com/image/54169f11868c48af87a970777ba9fdaf.png" alt="Timeline Template bootstrap v4">

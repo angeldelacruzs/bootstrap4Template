@@ -9,17 +9,17 @@ $(function () {
    
 
 
-    $(window).on('resize', function () {
-        console.log($(window).width());
-        if ($(window).width() >= 992) {
-            $('.collapse').collapse('show');
-             return false;
-        }
-        if ($(window).width() <= 992) {
-           $('.collapse').collapse('hide');
-           return false;
-        }
-    });
+    // $(window).on('resize', function () {
+    //     console.log($(window).width());
+    //     if ($(window).width() >= 992) {
+    //         $('.collapse').collapse('show');
+    //          return false;
+    //     }
+    //     if ($(window).width() <= 992) {
+    //        $('.collapse').collapse('hide');
+    //        return false;
+    //     }
+    // });
 
 
 });

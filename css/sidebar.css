@@ -4,46 +4,74 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 21/01/2017, 01:04:07 PM
-    Author     : Angel
+    Created on          : 21/01/2017, 01:04:07 PM
+    Author              : Angel
 */
+
+@font-face{
+    src:url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-family: Roboto-Bold;
+}
 
 
 .bg-clay{
-    background: #22313F;   
+    background          : #22313F;
 }
 .bg-wisteria{
-    background: #8e44ad;
+    background          : #8e44ad;
 }
 
 .bg-peter-river{
-    background: #3498db;
+    background          : #3498db;
 }
 .sidebar{
-    width: 227.66px;
-    height: 100%;
-    background: #22313F;
-    position: fixed;
-    left: 0px;
-    z-index: 1000;
+    width               : 50px;
+    height              : 100%;
+    background          : #22313F;
+    position            : fixed;
+    left                : 0px;
+    z-index             : 1000;
+    padding-left        : 11px;
+      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .navbar-toggler {
-    -webkit-align-self: flex-start;
-    -ms-flex-item-align: start;
-    align-self: flex-start;
-    padding: .25rem .75rem;
-    font-size: 1.25rem;
-    line-height: normal;
-    background: 0 0;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-    margin-top: 4px;
+    -webkit-align-self  : flex-start;
+    -ms-flex-item-align : start;
+    align-self          : flex-start;
+    padding             : .25rem .75rem;
+    font-size           : 1.25rem;
+    line-height         : normal;
+    background          : 0 0;
+    border              : 1px solid transparent;
+    border-radius       : .25rem;
+    margin-top          : 4px;
 }
 
 .dropdown-menu{
-    z-index: 1001;
-    top: 113%;
-    border-radius: 0;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    z-index             : 1001;
+    top                 : 113%;
+    border-radius       : 0;
+    box-shadow          : 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.navbar-nav .nav-link {
+    padding-right       : 0;
+    padding-top         : 0;
+    background          : #ecf0f1;
+    color               : #e74c3c;
+    margin-top          : 5px;
+    padding-left        : 0;
+    border-radius       : 30px;
+    width               : 30px;
+    height              : 30px;
+    line-height         : 30px;
+    text-align          : center;
+     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);       
+}
+
+.navbar-brand{
+    color:#fff !important;
+    font-family: Roboto-Bold;
+
 }
