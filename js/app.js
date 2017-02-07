@@ -1,9 +1,12 @@
-var app = angular.module('App', []);
+var app = angular.module('myApp', []);
 app.controller('myCtrl',  function ($scope) {
 		
 
-		$scope.nombre = "Angel";
-		$scope.apellido = "Miguel";
+	
+});
 
-
+app.directive("homeTemplate", function() {
+    return {
+        template : "I was made in a directive constructor!"
+    };
 });

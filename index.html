@@ -14,14 +14,14 @@ and open the template in the editor.
         <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/sidebar.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/jQuery-2.0.3.js"></script>
         <script src="js/angular.min.js"></script>
+        <script src="js/jQuery-2.0.3.js"></script>
         <script src="js/app.js"></script>
         <script src="js/tether/js/tether.min.js"></script>
         <script src="bootstrap-alpha/js/bootstrap.min.js"></script>
         <script src="js/sidebar.js"></script>
     </head>
-    <body  data-ng-app="App">
+    <body  ng-app="myApp">
         <nav class="navbar navbar-toggleable-lg navbar-light bg-peter-river">
             
             <a class="navbar-brand" href="#"><i class="fa fa-home"></i> Timeline</a>
@@ -46,16 +46,31 @@ and open the template in the editor.
                 </ul>
             </div>
         </div>
-        <main id="MAIN" ng-controller="myCtrl">
+        <main id="MAIN" >
         <div class="container-fluid">
             
             
             <div class="row">
-                
                 <div class="col-md-12">
-                     <br>
-                     {{ 6 + 6}}
+                    <home-template> </home-template>
                 </div>
+                <div class="col-md-12">
+                    <p>
+                        cantidad: <input type="text" ng-model="cant"> 
+                       
+                    </p>
+                    <p>
+                         Costo: <input type="text" ng-model="cost"> 
+                    </p>
+
+                    {{ cant * cost }}
+                </div>
+
+            <div ng-init="names=[{name:'Yani',Sector:'Mella 1'   }]" class="col-md-12">
+                <ul ng-repeat="x in names">
+                    {{ x.name + ' '+ x.Sector }}
+                </ul>
+            </div>
                 
             </div>
             
