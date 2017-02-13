@@ -1,3 +1,30 @@
 #MAIN{
 	margin-left: 50px;
 }
+
+
+.thumbnail{
+	background: #1d2f42;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.thumbnail h3{
+	text-align: center;
+	color:#ecf0f1;
+}
+
+.thumbnail p{
+	color:#fff;
+}
+
+
+#loading-bar .bar {
+  position: absolute;
+  top:54px;
+
+}
+
+.jumbotron{
+	margin-top: 70px;
+}

@@ -1,0 +1,22 @@
+<div class="container-fluid">
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-3">Welcome to {{aqui}}</h1>
+			<p class="lead">This is a important portal, have a good time.</p>
+			<p><div id="loading-bar-container2"></div></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-4" ng-repeat="x in post">
+			<div class="card">
+				<div class="card-block">
+					<h3 class="card-title">{{x.title}}</h3>
+					<p class="card-text">{{x.body}}</p>
+					<a href="#/view/{{x.id}}" class="btn btn-primary">Go somewhere</a>
+				</div>
+			</div>
+		</div>
+		 
+	</div>
+	
+</div>

@@ -9,8 +9,8 @@ and open the template in the editor.
 */
 
 @font-face{
-    src:url(../fonts/Roboto/Roboto-Bold.ttf);
-    font-family: Roboto-Bold;
+    src                 : url(../fonts/Roboto/Roboto-Bold.ttf);
+    font-family         : Roboto-Bold;
 }
 
 
@@ -30,9 +30,10 @@ and open the template in the editor.
     background          : #22313F;
     position            : fixed;
     left                : 0px;
+    top                 : 54px;
     z-index             : 1000;
     padding-left        : 11px;
-      box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    box-shadow          : 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .navbar-toggler {
@@ -67,11 +68,11 @@ and open the template in the editor.
     height              : 30px;
     line-height         : 30px;
     text-align          : center;
-     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);       
+    box-shadow          : 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .navbar-brand{
-    color:#fff !important;
-    font-family: Roboto-Bold;
+    color               : #fff !important;
+    font-family         : Roboto-Bold;
 
 }
